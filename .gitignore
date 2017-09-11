@@ -1,0 +1,5 @@
+config.py
+/lib/*
+/output/*
+/segresult/*
+/input/*
