@@ -1,7 +1,7 @@
 #encoding:utf8
 
 # from algorithm.datetostr import *
-from algorithm.ipconvert import IPLocator
+from algorithm.ipconvert import IPInfo
 import algorithm.WordSeg as ws
 from db import dbmanage, config
 import pickle
@@ -115,6 +115,7 @@ def DataGet(lb, listdate,mfilename=None, dformat=None,level=None,date_flag=None 
 
 			if "闪退" not in content[0]:
 				continue
+
 			# 处理数据，server_name
 			# if tmp_content[2] in server_map.keys():
 			# 	tmp_content[2] = server_map[tmp_content[2]]
@@ -131,7 +132,7 @@ def DataGet(lb, listdate,mfilename=None, dformat=None,level=None,date_flag=None 
 			# print(ipinfo[0])
 			# input()
 			# raw_input()
-			dictAlldata[cont]['time'] = document['time']#datetostr(document['time'].encode('utf8'),"%Y-%m-%d %H:%M",'day',True)
+			dictAlldata[cont]['time'] = datetostr(document['time'].encode('utf8'),"%Y-%m-%d %H:%M",'day',True) #document['time']
 			# dictAlldata[cont]['time_sort'] = datetostr(document['time'].encode('utf8'),dformat,level,date_flag)
 
 			#dictAlldata[cont]['ip'] = document['ip']
@@ -186,9 +187,42 @@ def createtransdata(filename=None, label=None, cont=0):
 		doctmp = _doc.split("\t")
 		if doctmp[0] == "时间":
 			continue
+
 		dictAlldata[cont] = {}
 		dictAlldata[cont]["content"] = doctmp[1]
 		dictAlldata[cont]["label"] = label
+		cont += 1
+
+	return dictAlldata
+
+def createdata(filename,cont=0):
+	# 输出一个字典，每个key是一个文档，content是玩家评论，label是类别
+	dictAlldata = {}
+	if filename == None:
+		filename = "../input/loginerror.txt"
+	cursor = {}
+
+	cursor["cursor"] = open(filename, "r", encoding="utf8")
+	if cont == 0:
+		cont = 0
+	for _doc in cursor["cursor"]:
+		doctmp = _doc.split("\t")
+		if doctmp[0] == "时间":
+			continue
+
+		doc_index = -1
+		for index, con in enumerate(doctmp):
+			if con == "回帖":
+				doc_index = index
+				break
+
+		if doc_index == -1:
+			continue
+
+		doctmp[index + 1] = doctmp[index + 1].replace('}}', '')
+		feedback = doctmp[index + 1].split('{{')
+		dictAlldata[cont] = {}
+		dictAlldata[cont]["content"] = feedback[0]
 		cont += 1
 
 	return dictAlldata
@@ -197,7 +231,7 @@ if __name__ == "__main__":
 	# 测试数据并分割
 	# data = DataGet("%Y-%m-%d %H:%M:%S", 'day', True, 0, 0)
 	# listdate = ["2017-8-8"]
-	# data = DataGet(0, [""])
+	# data = DataGet(0, [""], dformat="%Y-%m-%d %H:%M:%S")
 	# output_file = open("../output/result_shantui.pkl", 'wb')
 	# pickle.dump(data, output_file)
 	# output_file.close()
@@ -205,23 +239,24 @@ if __name__ == "__main__":
 	# data = pickle.load(output_file)
 	# output_file.close()
 
-	# 获取资料
-	of = open("../segresult/data_all_0908.pkl","rb")
-	data = pickle.load(of)
-	of.close()
-	sumdic = tf.gendict(data[-1])
-
-	outf = open("../output/output_shantui.txt","a")
-	sumdics = sorted(sumdic.items(), key=lambda  asd:asd[1]["num"], reverse=True)
-	# print(sumdics)
-	for strs in sumdics:
-		if strs[1]["num"] == 1:
-			continue
-		if len(strs[0]) <= 1:
-			continue
-		tmp_str = strs[0] + ": " + str(strs[1]["num"]) + "\n"
-		outf.write(tmp_str)
-	outf.close()
+	# # 获取资料
+	# of = open("../segresult/data_all_0908.pkl","rb")
+	# data = pickle.load(of)
+	# of.close()
+	# sumdic = tf.gendict(data[-1])
+	# #
+	# outf = open("../output/output_shantui.txt","a")
+	# sumdics = sorted(sumdic.items(), key=lambda  asd:asd[1]["num"], reverse=True)
+	# # print(sumdics)
+	# for strs in sumdics:
+	# 	print(sumdic[strs[0]])
+	# 	if strs[1]["num"] == 1:
+	# 		continue
+	# 	if len(strs[0]) <= 1:
+	# 		continue
+	# 	tmp_str = strs[0] + ": " + str(strs[1]["num"]) + "\n"
+	# 	outf.write(tmp_str)
+	# outf.close()
 
 	# tfidf_dic = tf.cal_TFIDF(data, sumdic)
 	# aaa = {"a": 2}
@@ -242,3 +277,13 @@ if __name__ == "__main__":
 	#
 	# ws.wordseg(data, '../segresult/data_trans.pkl')
 
+	#
+	filename = '../input/result.txt'
+	data = createdata(filename)
+	ws.wordseg(data)
+
+	# filename = '../segresult/data_all_1011.pkl'
+	# orflie = open(filename, 'rb')
+	# data = pickle.load(orflie)
+	# orflie.close()
+	# print(data)

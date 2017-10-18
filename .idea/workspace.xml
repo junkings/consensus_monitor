@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2989962c-0502-41f0-8b11-5e3490a72f17" name="Default" comment="" />
+    <list default="true" id="2989962c-0502-41f0-8b11-5e3490a72f17" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithm/sentanalys.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/LR.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/nn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithm/WordSeg.py" afterPath="$PROJECT_DIR$/algorithm/WordSeg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/DataGet.py" afterPath="$PROJECT_DIR$/db/DataGet.py" />
+    </list>
     <ignored path="consensus_monitor.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,42 +30,49 @@
       <file leaf-file-name="DataGet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/DataGet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="223" column="16" lean-forward="true" selection-start-line="223" selection-start-column="16" selection-end-line="223" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="282" column="10" lean-forward="false" selection-start-line="282" selection-start-column="10" selection-end-line="282" selection-end-column="10" />
               <folding>
-                <element signature="e#52#93#0" expanded="true" />
+                <element signature="e#52#90#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordSeg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/WordSeg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1925">
-              <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
-              <folding>
-                <element signature="e#16#28#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="result.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input/result.txt">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TF_IDF_algo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/TF_IDF_algo.py">
+      <file leaf-file-name="test_w2v.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/algorithm/test_w2v.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="325">
+              <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="issueClassify_nn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/issueClassify_nn.py">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sentanalys.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithm/sentanalys.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -65,45 +80,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stopwords.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statics/stopwords.txt">
+      <file leaf-file-name="cross_validation.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/env_tensorflow/Lib/site-packages/sklearn/cross_validation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="974" column="2" lean-forward="false" selection-start-line="974" selection-start-column="0" selection-end-line="974" selection-end-column="2" />
+            <state relative-caret-position="-459">
+              <caret line="1941" column="20" lean-forward="false" selection-start-line="1941" selection-start-column="4" selection-end-line="1941" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_dict.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statics/user_dict.txt">
+      <file leaf-file-name="data_all_1011.pkl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/segresult/data_all_1011.pkl">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TF_IDF_algo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/TF_IDF_algo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="2825">
+              <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ipconvert.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ipconvert.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/ipconvert.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="12" />
               <folding>
                 <element signature="e#15#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="issueClassify_Bayes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/issueClassify_Bayes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2868">
-              <caret line="159" column="33" lean-forward="false" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="33" />
-              <folding>
-                <element signature="e#46#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,9 +136,14 @@
       <find>jieba</find>
       <find>gendict</find>
       <find>statics</find>
-      <find>ch</find>
       <find>DataGet</find>
+      <find>ch</find>
+      <find>dformat</find>
+      <find>train_test_split</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -142,20 +159,25 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/db/config.py" />
         <option value="$PROJECT_DIR$/model/issueClassify_Bayes.py" />
-        <option value="$PROJECT_DIR$/algorithm/WordSeg.py" />
         <option value="$PROJECT_DIR$/algorithm/TF_IDF_algo.py" />
         <option value="$PROJECT_DIR$/model/issueClassify_nn.py" />
-        <option value="$PROJECT_DIR$/db/DataGet.py" />
         <option value="$PROJECT_DIR$/statics/user_dict.txt" />
         <option value="$PROJECT_DIR$/algorithm/ipconvert.py" />
+        <option value="$PROJECT_DIR$/model/nn.py" />
+        <option value="$PROJECT_DIR$/model/LR.py" />
+        <option value="$PROJECT_DIR$/db/DataGet.py" />
+        <option value="$PROJECT_DIR$/algorithm/WordSeg.py" />
+        <option value="$PROJECT_DIR$/algorithm/sentanalys.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
-    <option name="width" value="1932" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="801" />
+    <option name="y" value="30" />
+    <option name="width" value="1677" />
+    <option name="height" value="1092" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -171,6 +193,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,17 +202,50 @@
               <item name="consensus_monitor" type="b2602c69:ProjectViewProjectNode" />
               <item name="consensus_monitor" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="consensus_monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="consensus_monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="consensus_monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="consensus_monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="consensus_monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="consensus_monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="consensus_monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="consensus_monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="consensus_monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="consensus_monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="consensus_monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="consensus_monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="segresult" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="consensus_monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="consensus_monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="statics" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spider_monitor" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -208,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ipconvert">
+  <component name="RunManager" selected="Python.DataGet">
     <configuration name="DataGet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,6 +279,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="consensus_monitor" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db/DataGet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="LR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="consensus_monitor" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model/LR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -377,23 +451,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="issueClassify" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="consensus_monitor" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model/issueClassify.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="issueClassify_Bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -411,7 +468,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="issueClassify_knn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="nn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -423,25 +480,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="consensus_monitor" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model/issueClassify_knn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model/nn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.issueClassify" />
-      <item index="1" class="java.lang.String" itemvalue="Python.DataGet" />
-      <item index="2" class="java.lang.String" itemvalue="Python.issueClassify_knn" />
-      <item index="3" class="java.lang.String" itemvalue="Python.issueClassify_Bayes" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ipconvert" />
+      <item index="0" class="java.lang.String" itemvalue="Python.DataGet" />
+      <item index="1" class="java.lang.String" itemvalue="Python.issueClassify_Bayes" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ipconvert" />
+      <item index="3" class="java.lang.String" itemvalue="Python.nn" />
+      <item index="4" class="java.lang.String" itemvalue="Python.LR" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ipconvert" />
-        <item index="1" class="java.lang.String" itemvalue="Python.DataGet" />
-        <item index="2" class="java.lang.String" itemvalue="Python.issueClassify_Bayes" />
-        <item index="3" class="java.lang.String" itemvalue="Python.issueClassify_knn" />
-        <item index="4" class="java.lang.String" itemvalue="Python.issueClassify" />
+        <item index="0" class="java.lang.String" itemvalue="Python.DataGet" />
+        <item index="1" class="java.lang.String" itemvalue="Python.LR" />
+        <item index="2" class="java.lang.String" itemvalue="Python.nn" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ipconvert" />
+        <item index="4" class="java.lang.String" itemvalue="Python.issueClassify_Bayes" />
       </list>
     </recent_temporary>
   </component>
@@ -471,19 +528,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="801" y="30" width="1677" height="1092" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10341151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12677798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3195652" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3202545" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31991294" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31991294" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07717391" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51033735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -491,6 +547,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -513,6 +570,11 @@
           <line>99</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/db/DataGet.py</url>
+          <line>252</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -521,55 +583,15 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="26" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="sumdic[strs[0]]" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/issueClassify.py" />
-    <entry file="file://$PROJECT_DIR$/algorithm/TF_IDF_algo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3375">
-          <caret line="135" column="23" lean-forward="false" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input/data.pkl" />
-    <entry file="file://$PROJECT_DIR$/db/DataGet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/WordSeg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/user_dict.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -641,17 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10792">
           <caret line="589" column="0" lean-forward="true" selection-start-line="589" selection-start-column="0" selection-end-line="589" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/algorithm/test_w2v.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#17#35#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,24 +687,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gray_release/Trunk_20170809/svn_merge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../gray_release/Trunk_20170809/svn_merge.py" />
     <entry file="file://$PROJECT_DIR$/input/chanpin1_tid_post_1_2016-10-17_2016-10-18.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input/data.pkl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -729,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,25 +734,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input/result.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output/result_shantui.txt">
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="LargeFileEditor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
@@ -765,15 +753,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="281" column="23" lean-forward="false" selection-start-line="281" selection-start-column="23" selection-end-line="281" selection-end-column="23" />
-          <folding>
-            <element signature="e#16#28#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/issueClassify_Bayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2868">
+        <state relative-caret-position="3975">
           <caret line="159" column="33" lean-forward="false" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="33" />
           <folding>
             <element signature="e#46#59#0" expanded="true" />
@@ -788,21 +773,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/TF_IDF_algo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/issueClassify_nn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="250">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -810,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="242" column="13" lean-forward="true" selection-start-line="242" selection-start-column="13" selection-end-line="242" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,35 +791,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/WordSeg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1925">
-          <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
-          <folding>
-            <element signature="e#16#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/DataGet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="223" column="16" lean-forward="true" selection-start-line="223" selection-start-column="16" selection-end-line="223" selection-end-column="16" />
-          <folding>
-            <element signature="e#52#93#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/statics/stopwords.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
+        <state relative-caret-position="24350">
           <caret line="974" column="2" lean-forward="false" selection-start-line="974" selection-start-column="0" selection-end-line="974" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="978" column="8" lean-forward="false" selection-start-line="978" selection-start-column="8" selection-end-line="978" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,16 +819,132 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/ipconvert.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="12" />
           <folding>
             <element signature="e#15#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/data.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/result.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/TF_IDF_algo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2825">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/DataGet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="282" column="10" lean-forward="false" selection-start-line="282" selection-start-column="10" selection-end-line="282" selection-end-column="10" />
+          <folding>
+            <element signature="e#52#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segresult/data_all_1011.pkl">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/LR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#15#33#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/WordSeg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/algorithm/test_w2v.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/env_tensorflow/Lib/site-packages/sklearn/cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="1941" column="20" lean-forward="false" selection-start-line="1941" selection-start-column="4" selection-end-line="1941" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/env_tensorflow/Lib/site-packages/sklearn/decomposition/pca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2109">
+          <caret line="292" column="8" lean-forward="false" selection-start-line="292" selection-start-column="8" selection-end-line="292" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/env_tensorflow/Lib/site-packages/sklearn/covariance/shrunk_covariance_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="534" column="8" lean-forward="false" selection-start-line="534" selection-start-column="8" selection-end-line="534" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/sentanalys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

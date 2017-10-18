@@ -11,7 +11,7 @@ def wordseg(data, filename=None):
 		print('未获取数据')
 		return
 	if filename == None:
-		filename = "../segresult/data_all_0908.pkl"
+		filename = "../segresult/data_all_1011.pkl"
 
 	stw_list = [line.strip() for line in open(r'..\statics\stopwords.txt', 'r', encoding="utf8").readlines()]
 
@@ -54,7 +54,7 @@ def wordseg(data, filename=None):
 			# print type(word),type(stw_list[0])
 			# raw_input()
 			if word.encode('utf8') not in stw_list and word.strip() != '':
-				if len(word) >= 1:  # 去掉长度小于1的词
+				if len(word) >= 2:  # 去掉长度小于1的词
 					if word != '\t':
 						outstr += word
 						outstr += " "
